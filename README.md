@@ -352,6 +352,7 @@ proxyServer.listen(8015);
      ```
 *  **headers**: object with extra headers to be added to target requests.
 *  **proxyTimeout**: timeout (in millis) when proxy receives no response from target
+*  **redirectsToFollow**: number, Default: 0 - number of redirects to follow before returning
 
 **NOTE:**
 `options.ws` and `options.ssl` are optional.
